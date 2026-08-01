@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhura sources and credits: ayanamsa, ephemeris, star data</title>
+<meta name="description" content="The data and methods behind Muhura: the Lahiri ayanamsa, VSOP87 and Meeus, the Hipparcos and HYG star catalogues, the IAU constellation figures, and the typefaces.">
+<link rel="canonical" href="https://muhura.app/credits.html">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#1a0a08">
+<link rel="stylesheet" href="fonts.css">
+<style>
+:root { --bg:#1a0a08; --surface:#301410; --line:#5a3324; --text:#f4e9d9;
+  --muted:#a89383; --accent:#d9a441; }
+* { box-sizing:border-box; margin:0; }
+body { background:var(--bg); color:var(--text);
+  font:300 17px/1.7 'Mulish',system-ui,sans-serif; }
+.wrap { max-width:800px; margin:0 auto; padding:0 24px; }
+header { display:flex; justify-content:space-between; align-items:center;
+  padding:28px 0; }
+header img { height:56px; }
+nav a { color:var(--muted); text-decoration:none; margin-left:22px;
+  font-size:.85rem; font-weight:600; }
+nav a:hover { color:var(--accent); }
+h1 { font-family:'Fraunces',Georgia,serif; font-weight:500;
+  font-size:clamp(1.8rem,4vw,2.6rem); margin:20px 0 34px; }
+h2 { font-family:'Fraunces',Georgia,serif; font-weight:500;
+  font-size:1.18rem; color:var(--accent); margin:34px 0 10px; }
+p { color:var(--muted); margin-bottom:14px; }
+footer { border-top:1px solid var(--line); margin-top:56px;
+  padding:32px 0 60px; color:var(--muted); font-size:.85rem; }
+footer a { color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <a href="index.html"><img src="img/wordmark.png" alt="Muhura"></a>
+    <nav>
+      <a href="faq.html">FAQ</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </header>
+
+  <h1>Sources &amp; credits</h1>
+
+  <p>The data and methods behind the charts and the sky. Updated July 2026.</p>
+
+  <h2>The jyotish tradition</h2>
+  <p>
+    The nakshatra system, the Vimshottari dasha cycle, the koota scheme of guna
+    milan, the varga divisions and the panchang limbs are all ancient, unowned
+    knowledge, thousands of years older than any copyright term. Muhura computes
+    them from first principles. Every line of interpretive writing in the app is
+    original and was written for it; none is taken from a modern author.
+  </p>
+
+  <h2>Ayanamsa</h2>
+  <p>
+    Sidereal positions use the Lahiri (Chitrapaksha) ayanamsa, the standard
+    adopted by the Calendar Reform Committee of the Government of India and the
+    one most Indian panchangs are printed with.
+  </p>
+
+  <h2>Planetary positions</h2>
+  <p>
+    Graha positions are computed from the VSOP87 planetary theory (Bretagnon and
+    Francou, Bureau des Longitudes) and standard algorithms from Jean Meeus,
+    <em>Astronomical Algorithms</em>, then converted to sidereal longitudes.
+    These are published scientific methods; Muhura's implementation is entirely
+    its own.
+  </p>
+
+  <h2>Star positions and brightness</h2>
+  <p>
+    Star coordinates and magnitudes, including the yogatara junction stars that
+    mark the nakshatras, are physical facts drawn from the Hipparcos catalogue,
+    the Yale Bright Star Catalogue and the HYG compilation. Factual astronomical
+    measurements are not subject to copyright.
+  </p>
+
+  <h2>Constellation figures</h2>
+  <p>
+    The constellation stick figures in the sky view (which stars are joined into
+    each shape) are derived from the
+    <a href="https://www.iau.org/public/themes/constellations/" style="color:var(--accent)">official IAU
+    constellation figures</a> by Sky &amp; Telescope (Alan MacRobert, Roger
+    Sinnott, Rick Fienberg), used under the
+    <a href="https://creativecommons.org/licenses/by/4.0/" style="color:var(--accent)">Creative Commons
+    Attribution (CC BY)</a> licence. The sidereal frame rotates the boundary ring;
+    the star figures themselves are unchanged.
+  </p>
+
+  <h2>Typefaces</h2>
+  <p>
+    Muhura is set in Fraunces and Mulish, both offered under the SIL Open Font
+    License and bundled with this site so your visit is never tracked by a font
+    host. Indic text is rendered in your own device's system fonts.
+  </p>
+
+  <h2>Contact</h2>
+  <p>Questions: <a href="mailto:hello@muhura.app" style="color:var(--accent)">hello@muhura.app</a></p>
+
+  <footer>
+    &copy; 2026 Muhura, published by Pacefyx, Inc.
+    <br><br>
+    <a href="index.html">Home</a> &nbsp;&middot;&nbsp;
+    <a href="support.html">Support</a> &nbsp;&middot;&nbsp;
+    <a href="privacy.html">Privacy</a> &nbsp;&middot;&nbsp;
+    <a href="terms.html">Terms</a> &nbsp;&middot;&nbsp;
+    <a href="credits.html">Credits</a>
+  </footer>
+
+</div>
+</body>
+</html>

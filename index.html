@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhura: Private Janam Kundli &amp; Jyotish App</title>
+<meta name="description" content="Free janam kundli, rashifal, panchang and guna milan, computed privately on your device. No astrologer upsell, no consultations, no ads, no data sharing. In six Indian languages.">
+<link rel="canonical" href="https://muhura.app/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#1a0a08">
+<meta name="author" content="Pacefyx, Inc.">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Muhura">
+<meta property="og:url" content="https://muhura.app/">
+<meta property="og:title" content="Muhura: Private Janam Kundli &amp; Jyotish App">
+<meta property="og:description" content="Your kundli, rashifal, panchang and guna milan, computed on your phone. No consultations, no wallet, no subscription.">
+<meta property="og:image" content="https://muhura.app/img/sky-today.png">
+<meta property="og:image:alt" content="Muhura's sky view in Hindi, naming the rashis Kanya and Tula with the Moon in Swati nakshatra">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Muhura: Private Janam Kundli &amp; Jyotish App">
+<meta name="twitter:description" content="Your kundli, rashifal, panchang and guna milan, computed on your phone. No consultations, no wallet, no subscription.">
+<meta name="twitter:image" content="https://muhura.app/img/sky-today.png">
+<link rel="stylesheet" href="fonts.css">
+<style>
+:root { --bg:#1a0a08; --surface:#301410; --line:#5a3324; --text:#f4e9d9;
+  --muted:#a89383; --accent:#d9a441; --teal:#5aa8a0; }
+* { box-sizing:border-box; margin:0; }
+body { background:var(--bg); color:var(--text);
+  font:300 17px/1.7 'Mulish',system-ui,sans-serif; }
+.wrap { max-width:960px; margin:0 auto; padding:0 24px; }
+header { display:flex; justify-content:space-between; align-items:center;
+  padding:28px 0; }
+header img { height:64px; }
+nav a { color:var(--muted); text-decoration:none; margin-left:22px;
+  font-size:.85rem; font-weight:600; }
+nav a:hover { color:var(--accent); }
+h1,h2 { font-family:'Fraunces',Georgia,serif; font-weight:500; }
+.hero { display:grid; grid-template-columns:1.1fr .9fr; gap:44px;
+  align-items:center; padding:48px 0 64px; }
+@media (max-width:760px){ .hero{grid-template-columns:1fr;} }
+.hero h1 { font-size:clamp(2rem,5vw,3.1rem); line-height:1.15; }
+.hero h1 em { font-style:italic; color:var(--accent); }
+.hero p { color:var(--muted); margin:18px 0 26px; max-width:46ch; }
+.hero img { width:100%; border-radius:18px; }
+.badge { display:inline-block; background:var(--accent); color:var(--bg);
+  font-weight:700; padding:14px 28px; border-radius:999px;
+  text-decoration:none; }
+.badge.soon { background:var(--surface); color:var(--muted);
+  border:1px solid var(--line); }
+.badges { display:flex; gap:12px; flex-wrap:wrap; }
+.pills { display:flex; gap:10px; flex-wrap:wrap; margin-top:22px; }
+.pill { border:1px solid var(--line); border-radius:999px;
+  padding:6px 14px; font-size:.8rem; color:var(--muted); }
+section { padding:56px 0; border-top:1px solid var(--line); }
+section h2 { font-size:clamp(1.5rem,3.4vw,2.1rem); margin-bottom:28px; }
+.cards { display:grid; grid-template-columns:repeat(3,1fr); gap:26px; }
+@media (max-width:760px){ .cards{grid-template-columns:1fr;} }
+.card h3 { font-family:'Fraunces',Georgia,serif; font-weight:500;
+  font-size:1.15rem; color:var(--accent); margin-bottom:10px; }
+.card p { color:var(--muted); font-size:.95rem; }
+.prose p { color:var(--muted); max-width:70ch; margin-bottom:16px; }
+.langs { color:var(--muted); font-size:.95rem; max-width:70ch; }
+.langs b { color:var(--text); font-weight:600; }
+footer { border-top:1px solid var(--line); padding:36px 0 60px;
+  color:var(--muted); font-size:.85rem; }
+footer a { color:var(--muted); }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Muhura",
+  "alternateName": "Muhura: Kundli & Jyotish",
+  "applicationCategory": "LifestyleApplication",
+  "operatingSystem": "iOS 18, Android 14",
+  "url": "https://muhura.app/",
+  "description": "A private Vedic astrology app. Janam kundli, rashifal, panchang, Vimshottari dasha, guna milan and muhurta, computed on your own device. No account, no consultations, no subscription.",
+  "inLanguage": ["en", "hi", "bn", "ta", "te", "gu"],
+  "publisher": { "@type": "Organization", "name": "Pacefyx, Inc." },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD",
+              "description": "Your kundli and daily reading are free. Optional one-time purchases, no subscription." }
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <img src="img/wordmark.png" alt="Muhura">
+    <nav>
+      <a href="faq.html">FAQ</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <div>
+      <h1>Jyotish that stays <em>between you and your sky</em>.</h1>
+      <p>
+        Your kundli, computed with real sidereal astronomy on your own phone.
+        Your rashifal, your panchang, your dasha periods, read in your own
+        language. No account, no OTP, no wallet to recharge, and nobody
+        waiting to sell you a consultation.
+      </p>
+      <div class="badges">
+        <a class="badge soon" href="#">App Store &middot; Aug 2026</a>
+        <a class="badge soon" href="#">Google Play &middot; Aug 2026</a>
+      </div>
+      <div class="pills">
+        <span class="pill">No sign-up</span>
+        <span class="pill">No consultations</span>
+        <span class="pill">No subscription</span>
+        <span class="pill">Works offline</span>
+      </div>
+    </div>
+    <img src="img/sky-today.png" alt="Muhura's sky view in Hindi: the rashis Kanya and Tula named in Devanagari, with the Moon shown in Swati nakshatra">
+  </div>
+
+  <section>
+    <h2>A jyotish tool, not a marketplace</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Nobody to sell you anything</h3>
+        <p>
+          No consultations. No per-minute calls or chat. No remedies, no
+          gemstones, no poojas, no yantras. Muhura computes your chart and
+          reads it to you, and that is the whole product. There is nothing
+          else to buy from anyone.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Real jyotish, really computed</h3>
+        <p>
+          Sidereal positions with Lahiri ayanamsa, calculated on your device
+          from precise astronomy. The nine grahas, the bhavas, the
+          nakshatras, and the varga charts. Rahu and Ketu use classical
+          madhya positions by default, with spashta available if your
+          tradition prefers it.
+        </p>
+      </div>
+      <div class="card">
+        <h3>A lens, never a verdict</h3>
+        <p>
+          Doshas are shown as something to understand about a chart, not a
+          judgement on a life. Guna milan gives you the kootas and what they
+          weigh, without pronouncing a marriage good or bad. The reading
+          ends with your decision, not ours.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="prose">
+    <h2>Your birth details stay on your phone.</h2>
+    <p>
+      There is no account, no OTP, and no server of ours to hold anything.
+      Your birth date, time and place, your saved people, your kundli and
+      every reading built from it are created and kept on your device. We do
+      not collect them, which means we cannot read them, search them, sell
+      them or lose them. If you keep a device backup, that backup is yours and
+      may include them, which the
+      <a href="privacy.html" style="color:var(--accent)">privacy policy</a> says
+      plainly rather than overstating the claim.
+    </p>
+    <p>
+      The App Store privacy label reads "Data Not Collected," because there is
+      nothing for us to collect. A birth time is one of the most personal
+      things a person can hand to an app, and the ordinary practice in this
+      category is to hand it to an ad network. We built the app so that the
+      question never arises.
+    </p>
+  </section>
+
+  <section class="prose">
+    <h2>Free every day. The rest, only if you want it.</h2>
+    <p>
+      Your janam kundli and its reading are free. Your daily rashifal is free,
+      every day. Your year at a glance, the bhava your muntha runs through
+      above your dasha seasons, is free. The panchang for where you actually
+      are, with its tithi, nakshatra, yoga and karana, is free.
+    </p>
+    <p>
+      When you want more, it stays simple. A guna milan reading for two people
+      is a small one-time purchase, and there is an unlock if you want them
+      all. Muhurta guidance, for choosing which day carries a plan well, is
+      there when you need it. No subscription, no renewals, no wallet to top
+      up, and nothing to cancel.
+    </p>
+  </section>
+
+  <section class="prose">
+    <h2>In six languages, each in its own script</h2>
+    <p class="langs">
+      <b>English</b> &middot; <b>हिन्दी</b> Hindi &middot; <b>বাংলা</b> Bangla
+      &middot; <b>தமிழ்</b> Tamil &middot; <b>తెలుగు</b> Telugu &middot;
+      <b>ગુજરાતી</b> Gujarati
+    </p>
+    <p style="margin-top:16px">
+      Not translated word for word from English. Each language was written by
+      someone reading in it, using the tradition's own vocabulary, so that
+      ஜாதகம், কোষ্ঠী and जन्म कुंडली each read the way a reader expects rather
+      than the way English happens to phrase it.
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2026 Muhura, published by Pacefyx, Inc. For reflection, not prediction.
+    Muhura gives no medical, legal, financial or other professional advice.
+    <br><br>
+    <a href="support.html">Support</a> &nbsp;&middot;&nbsp;
+    <a href="privacy.html">Privacy policy</a> &nbsp;&middot;&nbsp;
+    <a href="terms.html">Terms of use</a> &nbsp;&middot;&nbsp;
+    <a href="credits.html">Credits</a>
+  </footer>
+
+</div>
+</body>
+</html>

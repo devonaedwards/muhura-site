@@ -1,0 +1,23 @@
+# Muhura
+
+> Muhura is a private Vedic astrology (jyotish) app for iPhone and Android. It computes your janam kundli, your daily rashifal, your Vimshottari dasha periods, a panchang for your own place, guna milan between two charts, and muhurta guidance for choosing a day. There is no account, no tracking, no advertising and no astrologer consultation to buy. Your information stays on your phone and is never collected. There are no subscriptions and no wallet to recharge. It is written in six languages: English, Hindi, Bangla, Tamil, Telugu and Gujarati. Published by Pacefyx, Inc. Launching August 2026.
+
+## Pages
+- [Home](https://muhura.app/): what Muhura is and why it is private by design
+- [FAQ](https://muhura.app/faq.html): privacy, price, offline use, ayanamsa, matching, remedies, and languages
+- [Support](https://muhura.app/support.html): help and contact
+- [Privacy policy](https://muhura.app/privacy.html): the Data Not Collected policy
+- [Terms of use](https://muhura.app/terms.html): terms and disclaimers
+- [Sources and credits](https://muhura.app/credits.html): ayanamsa, ephemeris, star data, and typefaces
+
+## Key facts
+- Private by design: no account, no OTP, no tracking, no ads and no developer server. Birth details, kundli and readings stay on the user's phone and are never collected. The App Store privacy label reads Data Not Collected.
+- No consultations: there are no astrologers, no calls, no chat, no per-minute billing and no wallet. This is the main structural difference from the dominant Vedic astrology apps, which are paid-consultation marketplaces.
+- No remedies: Muhura prescribes and sells no remedies, gemstones, yantras, poojas or rituals, and makes no claim to cure, prevent or guarantee any outcome.
+- No verdicts: guna milan shows the kootas and their weights rather than declaring a match good or bad, and Manglik is presented as a placement with its classical cancellations rather than a judgement about a marriage.
+- Free: the janam kundli and its reading, the daily rashifal, the year at a glance, and the panchang are all free. Guna milan readings, keepsakes and muhurta guidance are optional one-time purchases. No subscription.
+- Method: sidereal with the Lahiri ayanamsa, the classical nine grahas only, no Uranus, Neptune or Pluto. Rahu and Ketu default to classical madhya (mean) positions with spashta (true) available. Positions are computed on the device from VSOP87 and Meeus algorithms, not looked up from a stored table.
+- Features: full kundli with grahas, bhavas, nakshatras and varga charts; Vimshottari dasha periods explained plainly; panchang with tithi, nakshatra, yoga and karana for the user's own place; the year at a glance showing the muntha bhava above the dasha seasons; guna milan; and muhurta guidance.
+- Works offline. Readings are composed on the device from the reader's own chart and a library of writing prepared and reviewed in advance.
+- Languages: six, each in its own script, written by readers of that language rather than machine-translated.
+- Purpose: reflection, not fixed prediction and not verdicts about people or marriages.
