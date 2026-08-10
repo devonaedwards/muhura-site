@@ -15,9 +15,16 @@
   <url><loc>https://muhura.app/privacy.html</loc><lastmod>2026-07-31</lastmod><priority>0.5</priority></url>
   <url><loc>https://muhura.app/terms.html</loc><lastmod>2026-07-31</lastmod><priority>0.5</priority></url>
   <url><loc>https://muhura.app/credits.html</loc><lastmod>2026-07-31</lastmod><priority>0.3</priority></url>
+  <url><loc>https://muhura.app/bn/</loc><lastmod>2026-07-31</lastmod><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://muhura.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://muhura.app/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://muhura.app/bn/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://muhura.app/hi/"/>
+  </url>
   <url><loc>https://muhura.app/hi/</loc><lastmod>2026-07-31</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://muhura.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://muhura.app/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://muhura.app/bn/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://muhura.app/hi/"/>
   </url>
 </urlset>
