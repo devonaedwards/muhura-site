@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhura: వ్యక్తిగత జన్మ జాతకం మరియు జ్యోతిష యాప్</title>
+<meta name="description" content="ఉచిత జన్మ జాతకం, రాశిఫలం, పంచాంగం మరియు గుణ మిలనం, మీ పరికరంలోనే వ్యక్తిగతంగా లెక్కించబడతాయి. జ్యోతిష్కుల అమ్మకాలు లేవు, సంప్రదింపులు లేవు, ప్రకటనలు లేవు, డేటా పంచుకోవడం లేదు. ఆంగ్లం మరియు ఐదు భారతీయ భాషల్లో.">
+<link rel="canonical" href="https://muhura.app/te/">
+<link rel="alternate" hreflang="x-default" href="https://muhura.app/">
+<link rel="alternate" hreflang="en" href="https://muhura.app/">
+<link rel="alternate" hreflang="bn" href="https://muhura.app/bn/">
+<link rel="alternate" hreflang="hi" href="https://muhura.app/hi/">
+<link rel="alternate" hreflang="ta" href="https://muhura.app/ta/">
+<link rel="alternate" hreflang="te" href="https://muhura.app/te/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#1a0a08">
+<meta name="author" content="Pacefyx, Inc.">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="te_IN">
+<meta property="og:site_name" content="Muhura">
+<meta property="og:url" content="https://muhura.app/te/">
+<meta property="og:title" content="Muhura: వ్యక్తిగత జన్మ జాతకం మరియు జ్యోతిష యాప్">
+<meta property="og:description" content="మీ జాతకం, రాశిఫలం, పంచాంగం మరియు గుణ మిలనం, మీ ఫోన్‌లోనే లెక్కించబడతాయి. సంప్రదింపులు లేవు, వాలెట్ లేదు, చందా లేదు.">
+<meta property="og:image" content="https://muhura.app/img/sky-today.png">
+<meta property="og:image:alt" content="తెలుగులో Muhura ఆకాశ దృశ్యం, ఇందులో రాశులు కన్య మరియు తుల పేర్కొనబడ్డాయి, చంద్రుడు స్వాతి నక్షత్రంలో చూపబడ్డాడు">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Muhura: వ్యక్తిగత జన్మ జాతకం మరియు జ్యోతిష యాప్">
+<meta name="twitter:description" content="మీ జాతకం, రాశిఫలం, పంచాంగం మరియు గుణ మిలనం, మీ ఫోన్‌లోనే లెక్కించబడతాయి. సంప్రదింపులు లేవు, వాలెట్ లేదు, చందా లేదు.">
+<meta name="twitter:image" content="https://muhura.app/img/sky-today.png">
+<link rel="stylesheet" href="/fonts.css">
+<style>
+:root { --bg:#1a0a08; --surface:#301410; --line:#5a3324; --text:#f4e9d9;
+  --muted:#a89383; --accent:#d9a441; --teal:#5aa8a0; }
+* { box-sizing:border-box; margin:0; }
+body { background:var(--bg); color:var(--text);
+  font:300 17px/1.7 'Mulish',system-ui,sans-serif; }
+.wrap { max-width:960px; margin:0 auto; padding:0 24px; }
+header { display:flex; justify-content:space-between; align-items:center;
+  padding:28px 0; }
+header img { height:64px; }
+nav a { color:var(--muted); text-decoration:none; margin-left:22px;
+  font-size:.85rem; font-weight:600; }
+nav a:hover { color:var(--accent); }
+h1,h2 { font-family:'Fraunces',Georgia,serif; font-weight:500; }
+.hero { display:grid; grid-template-columns:1.1fr .9fr; gap:44px;
+  align-items:center; padding:48px 0 64px; }
+@media (max-width:760px){ .hero{grid-template-columns:1fr;} }
+.hero h1 { font-size:clamp(2rem,5vw,3.1rem); line-height:1.15; }
+.hero h1 em { font-style:italic; color:var(--accent); }
+.hero p { color:var(--muted); margin:18px 0 26px; max-width:46ch; }
+.hero img { width:100%; border-radius:18px; }
+.badge { display:inline-block; background:var(--accent); color:var(--bg);
+  font-weight:700; padding:14px 28px; border-radius:999px;
+  text-decoration:none; }
+.badge.soon { background:var(--surface); color:var(--muted);
+  border:1px solid var(--line); }
+.badges { display:flex; gap:12px; flex-wrap:wrap; }
+.pills { display:flex; gap:10px; flex-wrap:wrap; margin-top:22px; }
+.pill { border:1px solid var(--line); border-radius:999px;
+  padding:6px 14px; font-size:.8rem; color:var(--muted); }
+section { padding:56px 0; border-top:1px solid var(--line); }
+section h2 { font-size:clamp(1.5rem,3.4vw,2.1rem); margin-bottom:28px; }
+.cards { display:grid; grid-template-columns:repeat(3,1fr); gap:26px; }
+@media (max-width:760px){ .cards{grid-template-columns:1fr;} }
+.card h3 { font-family:'Fraunces',Georgia,serif; font-weight:500;
+  font-size:1.15rem; color:var(--accent); margin-bottom:10px; }
+.card p { color:var(--muted); font-size:.95rem; }
+.prose p { color:var(--muted); max-width:70ch; margin-bottom:16px; }
+.langs { color:var(--muted); font-size:.95rem; max-width:70ch; }
+.langs b { color:var(--text); font-weight:600; }
+footer { border-top:1px solid var(--line); padding:36px 0 60px;
+  color:var(--muted); font-size:.85rem; }
+footer a { color:var(--muted); }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Muhura",
+  "alternateName": "Muhura: Kundli & Jyotish",
+  "applicationCategory": "LifestyleApplication",
+  "operatingSystem": "iOS 18, Android 14",
+  "url": "https://muhura.app/",
+  "description": "ఒక వ్యక్తిగత వైదిక జ్యోతిష యాప్. జన్మ జాతకం, రాశిఫలం, పంచాంగం, విమ్శోత్తరి దశ, గుణ మిలనం మరియు ముహూర్తం, మీ సొంత పరికరంలోనే లెక్కించబడతాయి. ఖాతా లేదు, సంప్రదింపులు లేవు, చందా లేదు.",
+  "inLanguage": ["en", "hi", "bn", "ta", "te", "gu"],
+  "publisher": { "@type": "Organization", "name": "Pacefyx, Inc." },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD",
+              "description": "మీ జాతకం మరియు దైనిక పఠనం ఉచితం. ఐచ్ఛిక ఒక్కసారి కొనుగోళ్లు, చందా లేదు." }
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+<style>
+/* Language switcher. Sits under the nav, wraps freely, never a dropdown:
+   a reader who cannot read the current page cannot be asked to operate one. */
+.langbar { border-top:1px solid var(--line); padding:14px 0 0; margin-top:4px;
+  font-size:.78rem; line-height:2; }
+.langbar a { color:var(--muted); text-decoration:none; margin-right:14px;
+  white-space:nowrap; }
+.langbar a:hover { color:var(--accent); text-decoration:underline; }
+.langbar a[aria-current="true"] { color:var(--accent); font-weight:700; }
+[dir="rtl"] .langbar a { margin-right:0; margin-left:14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <img src="/img/wordmark.png" alt="Muhura">
+    <nav>
+      <a href="/faq.html">సాధారణ ప్రశ్నలు</a>
+      <a href="/support.html">మద్దతు</a>
+      <a href="/privacy.html">గోప్యత</a>
+      <a href="/terms.html">నిబంధనలు</a>
+    </nav>
+  </header>
+
+<div class="langbar">
+  <a href="https://muhura.app/" lang="en">English</a>
+  <a href="https://muhura.app/bn/" lang="bn">বাংলা</a>
+  <a href="https://muhura.app/hi/" lang="hi">हिन्दी</a>
+  <a href="https://muhura.app/ta/" lang="ta">தமிழ்</a>
+  <a href="https://muhura.app/te/" lang="te" aria-current="true">తెలుగు</a>
+</div>
+
+
+  <div class="hero">
+    <div>
+      <h1>జ్యోతిషం, <em>మీకూ మీ ఆకాశానికీ మధ్యే</em> నిలిచిపోయేది.</h1>
+      <p>
+        మీ జాతకం, నిజమైన నిరయన ఖగోళశాస్త్రంతో మీ సొంత ఫోన్‌లోనే
+        లెక్కించబడుతుంది. మీ రాశిఫలం, మీ పంచాంగం, మీ దశ కాలాలు, మీ సొంత
+        భాషలోనే చదవండి. ఖాతా లేదు, ఓటీపీ లేదు, రీఛార్జ్ చేయాల్సిన వాలెట్
+        లేదు, మరియు మీకు సంప్రదింపు అమ్మడానికి ఎవరూ ఎదురుచూడరు.
+      </p>
+      <div class="badges">
+        <a class="badge soon" href="#">App Store &middot; ఆగస్టు 2026</a>
+        <a class="badge soon" href="#">Google Play &middot; ఆగస్టు 2026</a>
+      </div>
+      <div class="pills">
+        <span class="pill">నమోదు లేదు</span>
+        <span class="pill">సంప్రదింపులు లేవు</span>
+        <span class="pill">చందా లేదు</span>
+        <span class="pill">ఆఫ్‌లైన్‌లో పనిచేస్తుంది</span>
+      </div>
+    </div>
+    <img src="/img/sky-today.png" alt="తెలుగులో Muhura ఆకాశ దృశ్యం: రాశులు కన్య మరియు తుల తెలుగు లిపిలో పేర్కొనబడ్డాయి, చంద్రుడు స్వాతి నక్షత్రంలో చూపబడ్డాడు">
+  </div>
+
+  <section>
+    <h2>ఒక జ్యోతిష సాధనం, బజారు కాదు</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>మీకు ఏదీ అమ్మడానికి ఎవరూ లేరు</h3>
+        <p>
+          సంప్రదింపులు లేవు. నిమిషానికి కాల్స్ గానీ చాట్ గానీ లేవు.
+          పరిహారాలు లేవు, రత్నాలు లేవు, పూజలు లేవు, యంత్రాలు లేవు. Muhura
+          మీ జాతకాన్ని లెక్కించి మీకు చదివి వినిపిస్తుంది, ఇదే మొత్తం
+          ఉత్పత్తి. ఎవరి నుండైనా కొనడానికి మరేమీ లేదు.
+        </p>
+      </div>
+      <div class="card">
+        <h3>నిజమైన జ్యోతిషం, నిజంగా లెక్కించినది</h3>
+        <p>
+          లాహిరి అయనాంశంతో నిరయన స్థితులు, మీ పరికరంలోనే కచ్చితమైన
+          ఖగోళశాస్త్రం నుండి లెక్కించబడతాయి. తొమ్మిది గ్రహాలు, భావాలు,
+          నక్షత్రాలు, మరియు వర్గ జాతకాలు. రాహువు మరియు కేతువు ప్రామాణికంగా
+          శాస్త్రీయ మధ్య స్థితులను వాడతారు, మీ సంప్రదాయం స్ఫుట స్థితిని
+          ఇష్టపడితే అదీ అందుబాటులో ఉంటుంది.
+        </p>
+      </div>
+      <div class="card">
+        <h3>ఒక దృష్టికోణం, ఎప్పటికీ తీర్పు కాదు</h3>
+        <p>
+          దోషాలు జాతకం గురించి అర్థం చేసుకోవడానికి ఒక విషయంగా చూపబడతాయి,
+          జీవితంపై తీర్పుగా కాదు. గుణ మిలనం మీకు కూటాలనూ వాటి బరువునూ
+          చూపిస్తుంది, ఏ వివాహాన్నీ మంచిదని చెడుదని ప్రకటించకుండా. పఠనం
+          మీ నిర్ణయంతో ముగుస్తుంది, మా నిర్ణయంతో కాదు.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="prose">
+    <h2>మీ జననవివరాలు మీ ఫోన్‌లోనే ఉంటాయి.</h2>
+    <p>
+      ఖాతా లేదు, ఓటీపీ లేదు, దేన్నీ దాచుకోవడానికి మా సర్వర్ ఏదీ లేదు. మీ
+      జననతేదీ, సమయం మరియు స్థలం, మీరు భద్రపరచిన వ్యక్తులు, మీ జాతకం మరియు
+      దాని నుండి రూపొందిన ప్రతి పఠనం మీ పరికరంలోనే సృష్టించబడి
+      భద్రపరచబడతాయి. వాటిని మేము సేకరించము, అంటే వాటిని మేము చదవలేము,
+      వెతకలేము, అమ్మలేము లేదా పోగొట్టుకోలేము. మీరు పరికర బ్యాకప్
+      ఉంచుకుంటే, ఆ బ్యాకప్ మీదే మరియు అందులో అవి ఉండవచ్చు, ఈ విషయాన్ని
+      <a href="/privacy.html" style="color:var(--accent)">గోప్యతా విధానం</a> అతిశయోక్తి
+      లేకుండా స్పష్టంగా చెబుతుంది.
+    </p>
+    <p>
+      App Store గోప్యతా లేబుల్‌లో "డేటా సేకరించలేదు" అని ఉంటుంది,
+      ఎందుకంటే మేము సేకరించడానికి ఏమీ లేదు. జననసమయం ఒక వ్యక్తి ఒక
+      యాప్‌కు అప్పగించగల అత్యంత వ్యక్తిగత విషయాలలో ఒకటి, మరియు ఈ
+      కేటగిరీలో మామూలు పద్ధతి దాన్ని ఒక ప్రకటనల నెట్‌వర్క్‌కు
+      అప్పగించడం. ఈ ప్రశ్న ఎప్పటికీ తలెత్తకుండా మేము ఈ యాప్‌ను
+      నిర్మించాము.
+    </p>
+  </section>
+
+  <section class="prose">
+    <h2>ప్రతిరోజూ ఉచితం. మిగతాది, మీకు కావాలంటేనే.</h2>
+    <p>
+      మీ జన్మ జాతకం మరియు దాని పఠనం ఉచితం. మీ దైనిక రాశిఫలం ఉచితం,
+      ప్రతిరోజూ. మీ దశ రుతువుల మీదుగా మీ మంథ సాగే భావాన్ని చూపే మీ
+      సంవత్సరం ఒక చూపులో, ఉచితం. మీరు నిజంగా ఉన్న చోటుకు పంచాంగం, దాని
+      తిథి, నక్షత్రం, యోగం మరియు కరణంతో సహా, ఉచితం.
+    </p>
+    <p>
+      మీకు మరింత కావాలంటే, అది సరళంగానే ఉంటుంది. ఇద్దరు వ్యక్తుల కోసం
+      గుణ మిలనం పఠనం ఒక చిన్న ఒక్కసారి కొనుగోలు, మరియు మీకు అన్నీ
+      కావాలంటే ఒక అన్‌లాక్ కూడా ఉంది. ఒక ప్రణాళికను బాగా మోసే రోజును
+      ఎంచుకోవడానికి, ముహూర్త మార్గదర్శకం మీకు అవసరమైనప్పుడు
+      అందుబాటులో ఉంటుంది. చందా లేదు, పునరుద్ధరణలు లేవు, రీఛార్జ్
+      చేయాల్సిన వాలెట్ లేదు, మరియు రద్దు చేయాల్సింది ఏమీ లేదు.
+    </p>
+  </section>
+
+  <section class="prose">
+    <h2>ఆరు భాషల్లో, ఒక్కొక్కటి దాని సొంత లిపిలో</h2>
+    <p class="langs">
+      <b>English</b> ఆంగ్లం &middot; <b>हिन्दी</b> హిందీ &middot; <b>বাংলা</b> బెంగాళీ
+      &middot; <b>தமிழ்</b> తమిళం &middot; <b>తెలుగు</b> &middot;
+      <b>ગુજરાતી</b> గుజరాతీ
+    </p>
+    <p style="margin-top:16px">
+      ఆంగ్లం నుండి పదానికి పదం అనువదించలేదు. ప్రతి భాషనూ ఆ భాషలో చదివే
+      వ్యక్తే రాశారు, ఆ సంప్రదాయపు సొంత పదజాలాన్ని వాడుతూ, తద్వారా
+      ஜாதகம், কোষ্ঠী మరియు जन्म कुंडली ప్రతి ఒక్కటీ ఆంగ్లం యాదృచ్ఛికంగా
+      వ్యక్తీకరించే విధంగా కాక, ఒక చదువరి ఎదురుచూసే విధంగా చదవబడతాయి.
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2026 Muhura, Pacefyx, Inc. ప్రచురించింది. ఆలోచన కోసం, జోస్యం కోసం కాదు.
+    Muhura ఏ వైద్య, న్యాయ, ఆర్థిక లేదా ఇతర వృత్తిపరమైన సలహా ఇవ్వదు.
+    <br><br>
+    <a href="/support.html">మద్దతు</a> &nbsp;&middot;&nbsp;
+    <a href="/privacy.html">గోప్యతా విధానం</a> &nbsp;&middot;&nbsp;
+    <a href="/terms.html">వినియోగ నిబంధనలు</a> &nbsp;&middot;&nbsp;
+    <a href="/credits.html">గుర్తింపులు</a>
+  </footer>
+
+</div>
+</body>
+</html>

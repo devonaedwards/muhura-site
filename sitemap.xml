@@ -21,6 +21,7 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://muhura.app/bn/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://muhura.app/hi/"/>
     <xhtml:link rel="alternate" hreflang="ta" href="https://muhura.app/ta/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://muhura.app/te/"/>
   </url>
   <url><loc>https://muhura.app/hi/</loc><lastmod>2026-07-31</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://muhura.app/"/>
@@ -28,6 +29,7 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://muhura.app/bn/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://muhura.app/hi/"/>
     <xhtml:link rel="alternate" hreflang="ta" href="https://muhura.app/ta/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://muhura.app/te/"/>
   </url>
   <url><loc>https://muhura.app/ta/</loc><lastmod>2026-07-31</lastmod><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://muhura.app/"/>
@@ -35,5 +37,14 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://muhura.app/bn/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://muhura.app/hi/"/>
     <xhtml:link rel="alternate" hreflang="ta" href="https://muhura.app/ta/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://muhura.app/te/"/>
+  </url>
+  <url><loc>https://muhura.app/te/</loc><lastmod>2026-07-31</lastmod><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://muhura.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://muhura.app/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://muhura.app/bn/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://muhura.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://muhura.app/ta/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://muhura.app/te/"/>
   </url>
 </urlset>
