@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhura: निजी जन्म कुंडली और ज्योतिष ऐप</title>
+<meta name="description" content="मुफ़्त जन्म कुंडली, राशिफल, पंचांग और गुण मिलान, जो आपके अपने डिवाइस पर निजी रूप से बनते हैं। कोई ज्योतिषी अपसेल नहीं, कोई परामर्श नहीं, कोई विज्ञापन नहीं, कोई डेटा साझाकरण नहीं। अंग्रेज़ी और पाँच भारतीय भाषाओं में उपलब्ध।">
+<link rel="canonical" href="https://muhura.app/hi/">
+<link rel="alternate" hreflang="x-default" href="https://muhura.app/">
+<link rel="alternate" hreflang="en" href="https://muhura.app/">
+<link rel="alternate" hreflang="hi" href="https://muhura.app/hi/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#1a0a08">
+<meta name="author" content="Pacefyx, Inc.">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="hi_IN">
+<meta property="og:site_name" content="Muhura">
+<meta property="og:url" content="https://muhura.app/hi/">
+<meta property="og:title" content="Muhura: निजी जन्म कुंडली और ज्योतिष ऐप">
+<meta property="og:description" content="आपकी कुंडली, राशिफल, पंचांग और गुण मिलान, आपके फ़ोन पर बनते हैं। कोई परामर्श नहीं, कोई वॉलेट नहीं, कोई सदस्यता नहीं।">
+<meta property="og:image" content="https://muhura.app/img/sky-today.png">
+<meta property="og:image:alt" content="हिन्दी में Muhura का आकाश-दृश्य, जिसमें राशियाँ कन्या और तुला नामित हैं और चंद्रमा स्वाति नक्षत्र में दिखाया गया है">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Muhura: निजी जन्म कुंडली और ज्योतिष ऐप">
+<meta name="twitter:description" content="आपकी कुंडली, राशिफल, पंचांग और गुण मिलान, आपके फ़ोन पर बनते हैं। कोई परामर्श नहीं, कोई वॉलेट नहीं, कोई सदस्यता नहीं।">
+<meta name="twitter:image" content="https://muhura.app/img/sky-today.png">
+<link rel="stylesheet" href="/fonts.css">
+<style>
+:root { --bg:#1a0a08; --surface:#301410; --line:#5a3324; --text:#f4e9d9;
+  --muted:#a89383; --accent:#d9a441; --teal:#5aa8a0; }
+* { box-sizing:border-box; margin:0; }
+body { background:var(--bg); color:var(--text);
+  font:300 17px/1.7 'Mulish',system-ui,sans-serif; }
+.wrap { max-width:960px; margin:0 auto; padding:0 24px; }
+header { display:flex; justify-content:space-between; align-items:center;
+  padding:28px 0; }
+header img { height:64px; }
+nav a { color:var(--muted); text-decoration:none; margin-left:22px;
+  font-size:.85rem; font-weight:600; }
+nav a:hover { color:var(--accent); }
+h1,h2 { font-family:'Fraunces',Georgia,serif; font-weight:500; }
+.hero { display:grid; grid-template-columns:1.1fr .9fr; gap:44px;
+  align-items:center; padding:48px 0 64px; }
+@media (max-width:760px){ .hero{grid-template-columns:1fr;} }
+.hero h1 { font-size:clamp(2rem,5vw,3.1rem); line-height:1.15; }
+.hero h1 em { font-style:italic; color:var(--accent); }
+.hero p { color:var(--muted); margin:18px 0 26px; max-width:46ch; }
+.hero img { width:100%; border-radius:18px; }
+.badge { display:inline-block; background:var(--accent); color:var(--bg);
+  font-weight:700; padding:14px 28px; border-radius:999px;
+  text-decoration:none; }
+.badge.soon { background:var(--surface); color:var(--muted);
+  border:1px solid var(--line); }
+.badges { display:flex; gap:12px; flex-wrap:wrap; }
+.pills { display:flex; gap:10px; flex-wrap:wrap; margin-top:22px; }
+.pill { border:1px solid var(--line); border-radius:999px;
+  padding:6px 14px; font-size:.8rem; color:var(--muted); }
+section { padding:56px 0; border-top:1px solid var(--line); }
+section h2 { font-size:clamp(1.5rem,3.4vw,2.1rem); margin-bottom:28px; }
+.cards { display:grid; grid-template-columns:repeat(3,1fr); gap:26px; }
+@media (max-width:760px){ .cards{grid-template-columns:1fr;} }
+.card h3 { font-family:'Fraunces',Georgia,serif; font-weight:500;
+  font-size:1.15rem; color:var(--accent); margin-bottom:10px; }
+.card p { color:var(--muted); font-size:.95rem; }
+.prose p { color:var(--muted); max-width:70ch; margin-bottom:16px; }
+.langs { color:var(--muted); font-size:.95rem; max-width:70ch; }
+.langs b { color:var(--text); font-weight:600; }
+footer { border-top:1px solid var(--line); padding:36px 0 60px;
+  color:var(--muted); font-size:.85rem; }
+footer a { color:var(--muted); }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Muhura",
+  "alternateName": "Muhura: Kundli & Jyotish",
+  "applicationCategory": "LifestyleApplication",
+  "operatingSystem": "iOS 18, Android 14",
+  "url": "https://muhura.app/",
+  "description": "एक निजी वैदिक ज्योतिष ऐप। जन्म कुंडली, राशिफल, पंचांग, विंशोत्तरी दशा, गुण मिलान और मुहूर्त, जो आपके अपने डिवाइस पर बनते हैं। कोई खाता नहीं, कोई परामर्श नहीं, कोई सदस्यता नहीं।",
+  "inLanguage": ["en", "hi", "bn", "ta", "te", "gu"],
+  "publisher": { "@type": "Organization", "name": "Pacefyx, Inc." },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD",
+              "description": "आपकी कुंडली और दैनिक पाठ मुफ़्त हैं। वैकल्पिक एक-बारगी ख़रीद, कोई सदस्यता नहीं।" }
+}
+</script>
+
+
+
+
+
+<style>
+/* Language switcher. Sits under the nav, wraps freely, never a dropdown:
+   a reader who cannot read the current page cannot be asked to operate one. */
+.langbar { border-top:1px solid var(--line); padding:14px 0 0; margin-top:4px;
+  font-size:.78rem; line-height:2; }
+.langbar a { color:var(--muted); text-decoration:none; margin-right:14px;
+  white-space:nowrap; }
+.langbar a:hover { color:var(--accent); text-decoration:underline; }
+.langbar a[aria-current="true"] { color:var(--accent); font-weight:700; }
+[dir="rtl"] .langbar a { margin-right:0; margin-left:14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <img src="/img/wordmark.png" alt="Muhura">
+    <nav>
+      <a href="/faq.html">सामान्य प्रश्न</a>
+      <a href="/support.html">सहायता</a>
+      <a href="/privacy.html">गोपनीयता</a>
+      <a href="/terms.html">शर्तें</a>
+    </nav>
+  </header>
+
+<div class="langbar">
+  <a href="https://muhura.app/" lang="en">English</a>
+  <a href="https://muhura.app/hi/" lang="hi" aria-current="true">हिन्दी</a>
+</div>
+
+
+  <div class="hero">
+    <div>
+      <h1>ज्योतिष जो <em>आपके और आपके आकाश के बीच</em> ही रहता है।</h1>
+      <p>
+        आपकी कुंडली, वास्तविक निरयन खगोलगणना से आपके अपने फ़ोन पर बनती है।
+        आपका राशिफल, आपका पंचांग, आपकी दशा-अवधियाँ, आपकी अपनी भाषा में
+        पढ़ें। कोई खाता नहीं, कोई ओटीपी नहीं, रिचार्ज कराने के लिए कोई
+        वॉलेट नहीं, और आपको परामर्श बेचने के इंतज़ार में कोई नहीं बैठा।
+      </p>
+      <div class="badges">
+        <a class="badge soon" href="#">App Store &middot; अगस्त 2026</a>
+        <a class="badge soon" href="#">Google Play &middot; अगस्त 2026</a>
+      </div>
+      <div class="pills">
+        <span class="pill">कोई साइन-अप नहीं</span>
+        <span class="pill">कोई परामर्श नहीं</span>
+        <span class="pill">कोई सदस्यता नहीं</span>
+        <span class="pill">ऑफ़लाइन काम करता है</span>
+      </div>
+    </div>
+    <img src="/img/sky-today.png" alt="हिन्दी में Muhura का आकाश-दृश्य: राशियाँ कन्या और तुला देवनागरी में नामित, और चंद्रमा स्वाति नक्षत्र में दिखाया गया">
+  </div>
+
+  <section>
+    <h2>ज्योतिष का एक उपकरण, बाज़ार नहीं</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>आपको कुछ भी बेचने वाला कोई नहीं</h3>
+        <p>
+          कोई परामर्श नहीं। कोई प्रति-मिनट कॉल या चैट नहीं। कोई उपाय नहीं,
+          कोई रत्न नहीं, कोई पूजा नहीं, कोई यंत्र नहीं। Muhura आपकी कुंडली
+          की गणना करता है और उसे आपको पढ़कर सुनाता है, और यही पूरा उत्पाद
+          है। किसी से भी ख़रीदने के लिए और कुछ नहीं है।
+        </p>
+      </div>
+      <div class="card">
+        <h3>सच्चा ज्योतिष, सचमुच परिकलित</h3>
+        <p>
+          लाहिरी अयनांश के साथ निरयन स्थितियाँ, आपके डिवाइस पर यथार्थ
+          खगोलगणना से निकाली गईं। नौ ग्रह, भाव, नक्षत्र, और वर्ग कुंडलियाँ।
+          राहु और केतु डिफ़ॉल्ट रूप से शास्त्रीय मध्य स्थिति प्रयोग करते
+          हैं, और यदि आपकी परंपरा को स्पष्ट पसंद है तो वह विकल्प भी
+          उपलब्ध है।
+        </p>
+      </div>
+      <div class="card">
+        <h3>एक दृष्टिकोण, कभी फ़ैसला नहीं</h3>
+        <p>
+          दोष कुंडली के बारे में समझने की एक बात के रूप में दिखाए जाते हैं,
+          जीवन पर फ़ैसले के रूप में नहीं। गुण मिलान आपको कूट और उनका भार
+          बताता है, बिना किसी विवाह को अच्छा या बुरा घोषित किए। पाठ आपके
+          निर्णय पर समाप्त होता है, हमारे निर्णय पर नहीं।
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="prose">
+    <h2>आपका जन्म-विवरण आपके फ़ोन पर ही रहता है।</h2>
+    <p>
+      कोई खाता नहीं है, कोई ओटीपी नहीं है, और कुछ भी रखने के लिए हमारा कोई
+      सर्वर नहीं है। आपकी जन्म-तिथि, समय और स्थान, आपके सहेजे गए लोग,
+      आपकी कुंडली और उससे बना हर पाठ आपके डिवाइस पर ही बनते और रखे जाते
+      हैं। हम इन्हें एकत्र नहीं करते, जिसका अर्थ है कि हम इन्हें न पढ़
+      सकते हैं, न खोज सकते हैं, न बेच सकते हैं और न खो सकते हैं। यदि आप
+      डिवाइस बैकअप रखते हैं, तो वह बैकअप आपका है और उसमें ये शामिल हो
+      सकते हैं, जो
+      <a href="/privacy.html" style="color:var(--accent)">गोपनीयता नीति</a> दावे को
+      बढ़ा-चढ़ाकर बताने के बजाय स्पष्ट रूप से कहती है।
+    </p>
+    <p>
+      App Store की गोपनीयता लेबल में "डेटा एकत्रित नहीं किया जाता है" लिखा
+      है, क्योंकि हमारे पास एकत्र करने के लिए कुछ है ही नहीं। जन्म-समय उन
+      सबसे निजी चीज़ों में से एक है जो कोई व्यक्ति किसी ऐप को सौंप सकता है,
+      और इस श्रेणी में सामान्य प्रथा यह है कि उसे किसी विज्ञापन नेटवर्क को
+      सौंप दिया जाए। हमने ऐप को इस तरह बनाया है कि यह सवाल कभी उठे ही नहीं।
+    </p>
+  </section>
+
+  <section class="prose">
+    <h2>हर दिन मुफ़्त। बाक़ी सब, केवल अगर आप चाहें।</h2>
+    <p>
+      आपकी जन्म कुंडली और उसका पाठ मुफ़्त हैं। आपका दैनिक राशिफल मुफ़्त है,
+      हर दिन। आपका साल एक नज़र में, वह भाव जिससे होकर आपकी मुंथा आपकी
+      दशा-ऋतुओं के ऊपर से गुज़रती है, मुफ़्त है। आप जहाँ वास्तव में हैं
+      वहाँ का पंचांग, उसकी तिथि, नक्षत्र, योग और करण सहित, मुफ़्त है।
+    </p>
+    <p>
+      जब आपको और चाहिए, तब भी यह सीधा ही रहता है। दो लोगों के लिए एक गुण
+      मिलान पाठ एक छोटी एक-बारगी ख़रीद है, और यदि आप सभी चाहें तो एक
+      अनलॉक भी उपलब्ध है। मुहूर्त मार्गदर्शन, यह चुनने के लिए कि कौन-सा
+      दिन किसी योजना को अच्छी तरह वहन करता है, ज़रूरत पड़ने पर वहीं मौजूद
+      है। कोई सदस्यता नहीं, कोई नवीनीकरण नहीं, रिचार्ज कराने के लिए कोई
+      वॉलेट नहीं, और रद्द करने के लिए कुछ भी नहीं।
+    </p>
+  </section>
+
+  <section class="prose">
+    <h2>छह भाषाओं में, हर एक अपनी ही लिपि में</h2>
+    <p class="langs">
+      <b>English</b> अंग्रेज़ी &middot; <b>हिन्दी</b> &middot; <b>বাংলা</b> बांग्ला
+      &middot; <b>தமிழ்</b> तमिल &middot; <b>తెలుగు</b> तेलुगु &middot;
+      <b>ગુજરાતી</b> गुजराती
+    </p>
+    <p style="margin-top:16px">
+      अंग्रेज़ी से शब्द-दर-शब्द अनुवाद नहीं किया गया। हर भाषा उस भाषा में
+      पढ़ने वाले किसी व्यक्ति द्वारा, उस परंपरा की अपनी शब्दावली का प्रयोग
+      करके लिखी गई, ताकि ஜாதகம், কোষ্ঠী और जन्म कुंडली में से हर एक वैसे
+      ही पढ़ा जाए जैसा एक पाठक अपेक्षा करता है, न कि जैसे अंग्रेज़ी उसे
+      संयोगवश व्यक्त करती है।
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2026 Muhura, जो Pacefyx, Inc. द्वारा प्रकाशित है। चिंतन के लिए,
+    भविष्यवाणी के लिए नहीं। Muhura कोई चिकित्सकीय, कानूनी, वित्तीय या अन्य
+    पेशेवर सलाह नहीं देता।
+    <br><br>
+    <a href="/support.html">सहायता</a> &nbsp;&middot;&nbsp;
+    <a href="/privacy.html">गोपनीयता नीति</a> &nbsp;&middot;&nbsp;
+    <a href="/terms.html">उपयोग की शर्तें</a> &nbsp;&middot;&nbsp;
+    <a href="/credits.html">श्रेय</a>
+  </footer>
+
+</div>
+</body>
+</html>

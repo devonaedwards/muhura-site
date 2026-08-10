@@ -4,8 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Muhura: Private Janam Kundli &amp; Jyotish App</title>
-<meta name="description" content="Free janam kundli, rashifal, panchang and guna milan, computed privately on your device. No astrologer upsell, no consultations, no ads, no data sharing. In six Indian languages.">
+<meta name="description" content="Free janam kundli, rashifal, panchang and guna milan, computed privately on your device. No astrologer upsell, no consultations, no ads, no data sharing. In English and five Indian languages.">
 <link rel="canonical" href="https://muhura.app/">
+<link rel="alternate" hreflang="x-default" href="https://muhura.app/">
+<link rel="alternate" hreflang="en" href="https://muhura.app/">
+<link rel="alternate" hreflang="hi" href="https://muhura.app/hi/">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="theme-color" content="#1a0a08">
 <meta name="author" content="Pacefyx, Inc.">
@@ -83,6 +86,21 @@ footer a { color:var(--muted); }
               "description": "Your kundli and daily reading are free. Optional one-time purchases, no subscription." }
 }
 </script>
+
+
+
+
+<style>
+/* Language switcher. Sits under the nav, wraps freely, never a dropdown:
+   a reader who cannot read the current page cannot be asked to operate one. */
+.langbar { border-top:1px solid var(--line); padding:14px 0 0; margin-top:4px;
+  font-size:.78rem; line-height:2; }
+.langbar a { color:var(--muted); text-decoration:none; margin-right:14px;
+  white-space:nowrap; }
+.langbar a:hover { color:var(--accent); text-decoration:underline; }
+.langbar a[aria-current="true"] { color:var(--accent); font-weight:700; }
+[dir="rtl"] .langbar a { margin-right:0; margin-left:14px; }
+</style>
 </head>
 <body>
 <div class="wrap">
@@ -96,6 +114,11 @@ footer a { color:var(--muted); }
       <a href="terms.html">Terms</a>
     </nav>
   </header>
+
+<div class="langbar">
+  <a href="https://muhura.app/" lang="en" aria-current="true">English</a>
+  <a href="https://muhura.app/hi/" lang="hi">हिन्दी</a>
+</div>
 
   <div class="hero">
     <div>
