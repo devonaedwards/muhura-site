@@ -1,6 +1,10 @@
 # Muhura
 
-> Muhura is a private Vedic astrology (jyotish) app for iPhone and Android. It computes your janam kundli, your daily rashifal, your Vimshottari dasha periods, a panchang for your own place, guna milan between two charts, and muhurta guidance for choosing a day. There is no account, no tracking, no advertising and no astrologer consultation to buy. Your information stays on your phone and is never collected. There are no subscriptions and no wallet to recharge. It is written in six languages: English, Hindi, Bangla, Tamil, Telugu and Gujarati. Published by Pacefyx, Inc. Launching August 2026.
+> Muhura is a private Vedic astrology (jyotish) app for iPhone and Android. It computes your janam kundli, your daily rashifal, your Vimshottari dasha periods, a panchang for your own place, guna milan between two charts, and muhurta guidance for choosing a day. There is no account, no tracking, no advertising and no astrologer consultation to buy. Your information stays on your phone and is never collected. There are no subscriptions and no wallet to recharge. It is written in six languages: English, Hindi, Bangla, Tamil, Telugu and Gujarati. Published by Pacefyx, Inc. Available on Google Play; the iPhone version is on its way to the App Store.
+
+## Where to get it
+- [Google Play](https://play.google.com/store/apps/details?id=app.muhura): available now
+- App Store: the iPhone version is on its way; no date is promised here
 
 ## Pages
 - [Home](https://muhura.app/): what Muhura is and why it is private by design

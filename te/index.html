@@ -30,6 +30,8 @@
 <meta name="twitter:title" content="Muhura: వ్యక్తిగత జన్మ జాతకం మరియు జ్యోతిష యాప్">
 <meta name="twitter:description" content="మీ జాతకం, రాశిఫలం, పంచాంగం మరియు గుణ మిలనం, మీ ఫోన్‌లోనే లెక్కించబడతాయి. సంప్రదింపులు లేవు, వాలెట్ లేదు, చందా లేదు.">
 <meta name="twitter:image" content="https://muhura.app/img/sky-today.png">
+<meta property="og:image:width" content="1080">
+<meta property="og:image:height" content="1080">
 <link rel="stylesheet" href="/fonts.css">
 <style>
 :root { --bg:#1a0a08; --surface:#301410; --line:#5a3324; --text:#f4e9d9;
@@ -56,7 +58,7 @@ h1,h2 { font-family:'Fraunces',Georgia,serif; font-weight:500; }
   font-weight:700; padding:14px 28px; border-radius:999px;
   text-decoration:none; }
 .badge.soon { background:var(--surface); color:var(--muted);
-  border:1px solid var(--line); }
+  border:1px solid var(--line); cursor:default; }
 .badges { display:flex; gap:12px; flex-wrap:wrap; }
 .pills { display:flex; gap:10px; flex-wrap:wrap; margin-top:22px; }
 .pill { border:1px solid var(--line); border-radius:999px;
@@ -79,6 +81,8 @@ footer a { color:var(--muted); }
 {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
+      "installUrl": "https://play.google.com/store/apps/details?id=app.muhura&hl=te",
+      "sameAs": ["https://play.google.com/store/apps/details?id=app.muhura&hl=te"],
   "name": "Muhura",
   "alternateName": "Muhura: Kundli & Jyotish",
   "applicationCategory": "LifestyleApplication",
@@ -171,8 +175,8 @@ footer a { color:var(--muted); }
         లేదు, మరియు మీకు సంప్రదింపు అమ్మడానికి ఎవరూ ఎదురుచూడరు.
       </p>
       <div class="badges">
-        <a class="badge soon" href="#">App Store &middot; ఆగస్టు 2026</a>
-        <a class="badge soon" href="#">Google Play &middot; ఆగస్టు 2026</a>
+        <span class="badge soon">App Store</span>
+        <a class="badge" href="https://play.google.com/store/apps/details?id=app.muhura&amp;hl=te">Google Play</a>
       </div>
       <div class="pills">
         <span class="pill">నమోదు లేదు</span>
